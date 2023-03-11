@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.midPage {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    background-color: beige;
+    position: relative;
+}
+
+.player1Side {
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(183, 255, 231);
+
+}
+
+.player2Side {
+    border-radius: 10px;
+
+    width: 50%;
+    background-color: #33725d;
+}
+
+.playerCard p {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.playerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.score1, .score2{
+    font-size: 110px;
+}
+.scoreBox{
+    width: 55%;
+    height: 22%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.scoreBox div{
+    font-size: 50px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 100%;
+}
+.newGame, .rollDice, .Holds{
+    font-weight: bold;
+    font-size: medium;
+    padding: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgb(183, 255, 231);
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #33725d;
+}
+.topButton{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+    align-items: center;
+}
+.dice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diceImage{
+    width: 80px;
+    height: 80px;
+}
+.hidden{
+    display: none;
+}
